@@ -21,15 +21,16 @@
 }
 
 /* header Style */
-body{
+header{
   background-image: url(../assets/Hero-bg.png);
-  background-size: 1440px 652px;
+  background-size: cover;
+  
 }
 
 
 /* Nav Style */
 nav{
-  /* display: flex; */
+ padding: 45px 220px;
   
 }
 nav ul li{
@@ -63,4 +64,25 @@ nav li a{
   font-size: 20px;
   border-radius: 8px;
   padding: 21px 24px;
+}
+
+/* Section Style */
+
+.section-title{
+  font-size: 32px;
+  font-weight: bolder;
+
+}
+.section-paragraph{
+  font-size: 16px;
+  color: rgba(13, 19, 33, 1);
+  
+}
+
+.section-subtitle{
+
+}
+
+.layer{
+  background-position: bottom right;
 }
